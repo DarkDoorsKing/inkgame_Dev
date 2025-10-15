@@ -1,0 +1,9 @@
+-- Remember : You must have played as a guard at least once before.
+-- 1 = Circle/Worker
+-- 2 = Triangle/Soldier
+-- 3 = Square/Manager
+-- You can put in AutoExec for fast in hardcore
+
+getgenv().guard = 1
+
+loadstring(game:HttpGet("https://raw.githubusercontent.com/DarkDoorsKing/inkgame_Dev/main/FreeGuard"))()
